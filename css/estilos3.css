@@ -1,0 +1,13 @@
+legend:hover{
+    color:red
+}
+
+
+legend:active{
+    color:blue
+}
+
+
+input:focus{
+    color:green
+}
