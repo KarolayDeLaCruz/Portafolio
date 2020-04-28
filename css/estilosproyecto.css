@@ -13,10 +13,12 @@
 }
 
 .perfil_circulo{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     overflow: hidden;
     border-radius: 50%;
+
+
 }
 
 .perfil_foto{
@@ -28,13 +30,13 @@
     color: #fff;
     font-size: 20px;
     width:250px;
-    margin-left: .5em;
 
 }
 
 .perfil_nombres, .perfil_circulo{
-    display: inline-block;
+    display: block;
     vertical-align: middle;
+
 }
 
 
@@ -61,3 +63,26 @@
     padding: .5em;
 
 }
+
+
+.proyectos{
+    margin-left:350px;
+    padding:1em;
+    display: table;
+}
+
+.proyecto{
+    display: table-cell;
+    padding:1em;
+    width:50%;
+}
+
+.proyecto_titulo{
+    color:  #2980b9;
+    font-size: 18px;
+}
+
+.proyecto__imagen{
+    width:100%;
+}
+
